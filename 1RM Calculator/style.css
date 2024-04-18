@@ -1,0 +1,104 @@
+body {
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+hr {
+  width: 500px;
+}
+
+h1,
+h2 {
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 30px;
+}
+html {
+  background-color: darkblue;
+}
+
+button {
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input {
+  width: 50px;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: lightgreen;
+}
+
+.Active {
+  border-color: green;
+  background-color: lightgreen;
+}
+
+button:hover {
+  background-color: gray;
+  border-color: black;
+}
+
+#ratingSpan,
+#ratioSpan {
+  font-weight: bold;
+}
+
+#calculateButton:hover {
+  background-color: lightgreen;
+  border-color: green;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+#calculateButton {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 5px;
+  border-radius: 25px;
+}
+
+#output {
+  margin: auto;
+  background-color: rgb(170, 170, 170);
+  width: 550px;
+  height: 190px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#resetButton:hover {
+  background-color: lightcoral;
+  border-color: darkred;
+}
+
+#resetButton {
+  font-weight: bold;
+}
